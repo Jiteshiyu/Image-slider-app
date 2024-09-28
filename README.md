@@ -1,4 +1,4 @@
-# Image Slider App
+# Snapslide
 
 This is an Image Slider application built with React, where users can navigate through a collection of images. The app features responsive navigation controls that allow users to view images one by one, with smooth transitions between them.
 
@@ -46,8 +46,8 @@ Make sure you have Node.js and npm installed. If not, download them [here](https
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jiteshiyu/Image-slider-app.git
-   cd Image-slider-app
+   git clone https://github.com/Jiteshiyu/Snapslide.git
+   cd Snapslide
    ```
 
 2. Install the dependencies:
