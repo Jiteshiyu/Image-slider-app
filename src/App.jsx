@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="app">
       {/* Main heading */}
-      <h1 className="app-heading">Image Slider</h1>
+      <h1 className="app-heading">Snapslide</h1>
       {/* Render Slider component */}
       <Slider />
     </div>
