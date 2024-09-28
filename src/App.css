@@ -4,6 +4,7 @@
   text-align: center;
 }
 
+/* App heading */
 .app-heading {
   margin: 1rem;
   font-size: 2.2rem;
@@ -11,11 +12,13 @@
   font-weight: bold;
 }
 
+/* Image slider container */
 .img-slider {
   height: 20rem;
   width: 40rem;
 }
 
+/* Image styles */
 .img {
   width: 100%;
   height: 100%;
@@ -23,6 +26,7 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Controls container */
 .ctrls {
   margin-top: 1.2rem;
   display: flex;
@@ -30,6 +34,7 @@
   gap: 1rem;
 }
 
+/* Button styles */
 .btn {
   color: #fff;
   padding: 0.5rem 1rem;
@@ -40,14 +45,17 @@
   transition: all 0.05s linear;
 }
 
+/* Previous button */
 .prev-btn {
   background-color: #dc3545;
 }
 
+/* Next button */
 .next-btn {
   background-color: #28a745;
 }
 
+/* Hover effects */
 .prev-btn:hover {
   background-color: #c82333;
 }
