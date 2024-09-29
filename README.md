@@ -16,7 +16,7 @@ An Image Slider application built with React.
 
 ## Demo
 
-You can view a live demo of the project [here](#).
+You can view a live demo of the project [here](https://snapslide.netlify.app/).
 
 ## Features
 
@@ -102,3 +102,9 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
+## Support
+Give a 🌟 to this repo if you liked it .
+
+Connect with me
+
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/) [![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
