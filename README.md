@@ -1,6 +1,6 @@
 # Snapslide
 
-This is an Image Slider application built with React, where users can navigate through a collection of images. The app features responsive navigation controls that allow users to view images one by one, with smooth transitions between them.
+An Image Slider application built with React.
 
 ## Table of Contents
 
@@ -8,7 +8,6 @@ This is an Image Slider application built with React, where users can navigate t
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Available Scripts](#available-scripts)
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
@@ -39,7 +38,7 @@ Follow the instructions below to run the project locally.
 
 ### Prerequisites
 
-Make sure you have Node.js and npm installed. If not, download them [here](https://nodejs.org/).
+Make sure you have **Node.js** and **npm** installed. If not, download them [here](https://nodejs.org/).
 
 ### Installation
 
@@ -64,40 +63,6 @@ Make sure you have Node.js and npm installed. If not, download them [here](https
 
 4. Open your browser and go to `http://localhost:3000` to see the app in action.
 
-## Project Structure
-
-```bash
-├── public/
-│   ├── bird.jpg
-│   ├── animals.jpg
-│   ├── river.jpg
-│   ├── hill.jpg
-│   ├── icon.png
-│   └── ocean.jpg
-│   ├── mountain.jpg
-│   ├── bear.jpg
-│   ├── forest.jpg
-│   └── sunset.jpg
-├── src/
-│   ├── components/
-│   │   ├── Controls.jsx
-│   │   ├── ImageSlider.jsx
-│   │   └── Slider.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   ├── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-- App.jsx: The main component that renders the `Slider` component.
-- Slider.jsx: Manages image state and handles next/previous image functionality.
-- ImageSlider.jsx: Displays the current image.
-- Controls.jsx: Provides "Next" and "Previous" buttons for image navigation.
-
 ## Available Scripts
 
 - `npm run dev`: Start the development server.
@@ -106,11 +71,13 @@ Make sure you have Node.js and npm installed. If not, download them [here](https
 
 ## How It Works
 
-The Image Slider App is a simple, responsive application built using React components. Here's how the core functionality works:
+The Image Slider App is a simple, responsive application built using React components.
+
+Here's how the core functionality works:
 
 1. State Management: The `Slider` component manages the index of the currently displayed image using the `useState` hook.
 2. Image Transitions: When the user clicks the "Next" or "Previous" buttons, the index is updated, and the corresponding image is displayed.
-3. Modular Components: The app is divided into modular components like `ImageSlider` for displaying images and `Controls` for navigation, making the codebase easy to maintain and scale.
+3. Modular Components: The app is divided into modular components like `ImageSlider` for displaying images and `Controls` for navigation.
 
 ## Future Improvements
 
@@ -134,6 +101,4 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
-
----
 
