@@ -18,7 +18,6 @@ An Image Slider application built with React.
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
 - [Challenges and Learnings](#challenges-and-learnings)
-- [Contributing](#contributing)
 
 ## Demo
 
@@ -33,10 +32,10 @@ You can view a live demo of the project [here](https://snapslide.netlify.app/).
 
 ## Technologies Used
 
-- React: For building the UI and component-based architecture.
-- Vite: For fast development and optimized build processes.
-- JavaScript/JSX: For the functionality and structure of the app.
-- CSS: For styling and layout.
+- React (For building the UI and component-based architecture)
+- Vite (For fast development and optimized build processes)
+- JavaScript/JSX (For the functionality and structure of the app)
+- CSS (For styling and layout)
 
 ## Getting Started
 
@@ -81,9 +80,9 @@ The Image Slider App is a simple, responsive application built using React compo
 
 Here's how the core functionality works:
 
-1. State Management: The `Slider` component manages the index of the currently displayed image using the `useState` hook.
-2. Image Transitions: When the user clicks the "Next" or "Previous" buttons, the index is updated, and the corresponding image is displayed.
-3. Modular Components: The app is divided into modular components like `ImageSlider` for displaying images and `Controls` for navigation.
+1. **State Management:** The `Slider` component manages the index of the currently displayed image using the `useState` hook.
+2. **Image Transitions:** When the user clicks the "Next" or "Previous" buttons, the index is updated, and the corresponding image is displayed.
+3. **Modular Components:** The app is divided into modular components like `ImageSlider` for displaying images and `Controls` for navigation.
 
 ## Future Improvements
 
@@ -94,19 +93,9 @@ Here's how the core functionality works:
 
 ## Challenges and Learnings
 
-- State Management: Managing and updating state efficiently using React's `useState` hook was essential for smooth transitions.
-- Responsive Design: Ensuring the app works across different screen sizes and resolutions required careful attention to CSS.
-- Image Indexing: Implementing a circular image indexing system so the user can infinitely cycle through images, even at the start or end of the list.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
+- **State Management:** Managing and updating state efficiently using React's `useState` hook was essential for smooth transitions.
+- **Responsive Design:** Ensuring the app works across different screen sizes and resolutions required careful attention to CSS.
+- **Image Indexing:** Implementing a circular image indexing system so the user can infinitely cycle through images, even at the start or end of the list.
 
 ## Support
 Give a 🌟 to this repo if you liked it .
