@@ -9,12 +9,12 @@ export default function Slider() {
   // Array of image paths
   const images = [
     "../bird.jpg",
-    "../mountain.jpg",
     "../animals.jpg",
-    "../hill.jpg",
-    "../forest.jpg",
     "../ocean.jpg",
     "../bear.jpg",
+    "../mountain.jpg",
+    "../hill.jpg",
+    "../forest.jpg",
     "../river.jpg",
     "../sunset.jpg",
   ];
