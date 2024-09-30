@@ -12,6 +12,7 @@ body {
 .app-heading {
   margin: 1rem;
   font-size: 2.2rem;
+  text-align: center;
   font-style: italic;
   font-weight: bold;
 }
