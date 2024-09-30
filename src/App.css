@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(to bottom right, #d1a4e9, #a0c4ff);
+  background: linear-gradient(#e5c6ed, #b3d9ff);
   display: flex;
   justify-content: center;
   align-items: center;
