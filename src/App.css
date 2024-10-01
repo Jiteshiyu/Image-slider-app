@@ -1,3 +1,4 @@
+/* Body Styles */
 body {
   margin: 0;
   height: 100vh;
@@ -7,8 +8,7 @@ body {
   align-items: center;
 }
 
-
-/* App heading */
+/* App Heading Styles */
 .app-heading {
   margin: 1rem;
   color: #fff;
@@ -18,21 +18,21 @@ body {
   font-weight: bold;
 }
 
-/* Image slider container */
+/* Image Slider Container */
 .img-slider {
   height: 20rem;
   width: 40rem;
 }
 
-/* Image styles */
+/* Image Styles */
 .img {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
-  box-shadow: 6px 8px 8px rgba(0, 255, 255, 0.5);
+  box-shadow: 4px 6px 8px rgba(0, 255, 255, 0.5);
 }
 
-/* Controls container */
+/* Controls Container Styles */
 .ctrls {
   margin-top: 1.2rem;
   display: flex;
@@ -40,7 +40,7 @@ body {
   gap: 1rem;
 }
 
-/* Button styles */
+/* Base Button Styles */
 .btn {
   color: #fff;
   padding: 0.5rem 1rem;
@@ -51,17 +51,17 @@ body {
   transition: all 0.05s linear;
 }
 
-/* Previous button */
+/* Previous Btn Style */
 .prev-btn {
   background-color: #dc3545;
 }
 
-/* Next button */
+/* Next Btn Style */
 .next-btn {
   background-color: #28a745;
 }
 
-/* Hover effects */
+/* Btn Hover Effects */
 .prev-btn:hover {
   background-color: #c82333;
 }
