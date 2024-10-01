@@ -13,7 +13,6 @@ export default function Slider() {
     "../ocean.jpg",
     "../bear.jpg",
     "../mountain.jpg",
-    "../hill.jpg",
     "../forest.jpg",
     "../river.jpg",
     "../sunset.jpg",
