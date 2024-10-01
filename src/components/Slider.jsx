@@ -30,8 +30,10 @@ export default function Slider() {
 
   return (
     <div>
-      <ImageSlider image={images[currIndex]} /> {/* Display current image */}
-      <Controls nextImage={nextImage} prevImage={prevImage} /> {/* Control buttons */}
+      {/* Display current image */}
+      <ImageSlider image={images[currIndex]} />
+      {/* Control buttons */}
+      <Controls nextImage={nextImage} prevImage={prevImage} />
     </div>
   );
 }
