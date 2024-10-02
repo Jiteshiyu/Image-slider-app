@@ -24,7 +24,7 @@ body {
 .img-slider {
   height: 20rem;
   width: 40rem;
-  max-width: 65%;
+  max-width: 100%;
   overflow: hidden;
 }
 
@@ -83,6 +83,11 @@ body {
 
   .ctrls {
     flex-direction: column;
+    align-items: center;
     gap: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
   }
 }
