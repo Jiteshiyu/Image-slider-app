@@ -24,7 +24,7 @@ body {
 .img-slider {
   height: 20rem;
   width: 40rem;
-  max-width: 100%;
+  max-width: 65%;
   overflow: hidden;
 }
 
@@ -43,7 +43,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 /* Base Button Styles */
@@ -79,29 +78,11 @@ body {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .img-slider {
-    height: 15rem;
+    width: 100%;
   }
 
-  .app-heading {
-    font-size: 1.8rem;
-  }
-
-  .btn {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .img-slider {
-    height: 12rem;
-  }
-
-  .app-heading {
-    font-size: 1.5rem;
-  }
-
-  .btn {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.8rem;
+  .ctrls {
+    flex-direction: column;
+    gap: 0.8rem;
   }
 }
