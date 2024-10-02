@@ -21,7 +21,7 @@ An Image Slider application built with React.
 
 ## Demo
 
-You can view a live demo of the project [here](https://snapslide.netlify.app/).
+You can view a live demo of the project [Snapslide](https://snapslide.netlify.app/).
 
 ## Features
 
