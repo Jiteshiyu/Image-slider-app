@@ -80,14 +80,4 @@ body {
   .img-slider {
     width: 100%;
   }
-
-  .ctrls {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-  }
-
-  .btn {
-    padding: 0.5rem 1rem;
-  }
 }
